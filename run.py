@@ -1,4 +1,4 @@
-from PreciseQPO import QuantumPortfolioOptimization
+from newQPO import QuantumPortfolioOptimization
 
 QuantumPortfolioOptimization(
     numberOfStocks = 10,
@@ -10,7 +10,7 @@ QuantumPortfolioOptimization(
     endDate = '2019-01-01',
     numReads = 10,
     chainStrength = 1,
-    backTest = True,
+    backTest = False,
     amount = 1000000,
     periodOriginal = [2019,2020],
     rebalance = "monthly"
