@@ -1,4 +1,4 @@
-from newQPO import QuantumPortfolioOptimization
+from PreciseQPO import QuantumPortfolioOptimization
 
 QuantumPortfolioOptimization(
     numberOfStocks = 10,
